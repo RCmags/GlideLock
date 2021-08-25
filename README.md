@@ -1,5 +1,7 @@
 # GlideLock
-This is a sketch for the [glide lock](http://ovirc.free.fr/GLDAB_English.php) of a crank-driven ornithopter. 
+This is a sketch for the [glide lock](http://ovirc.free.fr/GLDAB_English.php) of a crank-driven ornithopter.
+It uses the [PinChangeInterrupt](https://github.com/NicoHood/PinChangeInterrupt) library to read a PWM signal from a transmitter.  
+
 The glide lock works by iddling the motor below a certain throttle until the crankshaft reaches a known position.
 Doing so allows to wings to stop a dihedral angle that allows for efficient gliding flight.
 To accomplish this the code uses a hall sensor that looks for a magnet attached to the crank. 
