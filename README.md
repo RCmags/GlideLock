@@ -16,7 +16,7 @@ and one that's intended for a digital hall sensor and uses an external interrupt
 Both work well although the interrupt version can recognize the magnet at higher RPM's.
 
 This code was made to work for the following circuit:  
-<img src = ""></img>
+<img src = "glide_lock_schem.png" width = "80%"></img>
 
 See this video to see the glide lock working:  
 [<img src="https://img.youtube.com/vi/v0z1ojpoehQ/maxresdefault.jpg" width="50%">](https://youtu.be/v0z1ojpoehQ)
