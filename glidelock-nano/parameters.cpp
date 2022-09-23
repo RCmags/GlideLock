@@ -8,5 +8,5 @@
 #define PWM_MIN           1050         // Zero throttle. If using a BLheli esc, PWM_MIN < BLHELI_PWM_MIN  
 
 // 3. Hall sensor
-//#define USING_ANALOG_SENSOR           // enable if using a analog hall sensor                                   
+//#define USING_ANALOG_SENSOR           // remove comment if using a analog hall sensor                                   
 #define SENSOR_HIGH       100          // Values above threshold are high. Reading is relative to mean sensor output.  
