@@ -1,7 +1,7 @@
 /* ORNITHOPTER GLIDE LOCK */
 
 /* Sketch for an ATTiny85 that controls the motor of an RC ornithopter. 
- * It commands a the motor to stop once the crank shaft reaches a hall sensor pickup.
+ * It commands the motor to stop once the crank shaft reaches a hall sensor pickup.
  * Author: RCmags https://github.com/RCmags
  * 
  * NOTE: Code is intended to be used with ATTinyCore
