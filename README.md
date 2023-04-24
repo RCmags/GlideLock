@@ -21,4 +21,4 @@ Due to some odd behaviour, the input pin for the hall sensor has to change depen
 </p>
 
 ## Example
-See: [Video of the Glide Lock](https://youtu.be/v0z1ojpoehQ) 
+See: [Video explaining the Glide Lock and how it operates](https://youtu.be/v0z1ojpoehQ) 
