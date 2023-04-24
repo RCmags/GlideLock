@@ -1,4 +1,4 @@
-# Glide Lock for a radio-controlled ornithopter
+# Glide Lock for a radio-controlled ornithopter :bird:
 This Arduino sketch is the [glide lock](http://ovirc.free.fr/GLDAB_English.php) for a crank-driven ornithopter. It's meant to stop the wings at a small dihedral angle when the motor is turned off.  
 
 ## How it works
