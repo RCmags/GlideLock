@@ -9,7 +9,11 @@ The system works by iddling the motor below a certain throttle until the cranksh
 The code can accomodate either an analog or digital hall sensor. Whichever type of sensor is used, they both require the same circuit: 
 
 <p align="center"> 
-<img src = "/images/schematic-nano.png" width = "80%"></img>
+<img src = "/diagrams/nano/schematic-nano.png" width = "80%"></img>
+</p>
+
+<p align="center"> 
+<img src = "/diagrams/attiny/schematic-attiny.png" width = "80%"></img>
 </p>
 
 ## Example
