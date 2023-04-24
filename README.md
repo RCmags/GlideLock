@@ -1,14 +1,13 @@
 # Glide Lock for a radio-controlled ornithopter
-
-This Arduino sketch is the [glide lock](http://ovirc.free.fr/GLDAB_English.php) for a crank-driven ornithopter. It's meant stop the wings at a small dihedral angle when the motor is turned off.  
+This Arduino sketch is the [glide lock](http://ovirc.free.fr/GLDAB_English.php) for a crank-driven ornithopter. It's meant to stop the wings at a small dihedral angle when the motor is turned off.  
 
 ## How it works
-The system works by iddling the motor below a certain throttle until the crankshaft reaches a known position. The position of the rotor is measured using a hall sensor and a magnet attached to the crank shaft. When the magnet passes infront of the sensor, the motor turns off. However, the motor will continue to spin even after the throttle is set to zero. To work around this, one can continue to spin the motor for a short time interval after the magnet passes the sensor. If this delay is tuned correctly, the crank will stop in more or less the desired position. 
+The system works by iddling the motor below a certain throttle until the crankshaft reaches a known position. The position of the rotor is measured using a hall sensor and a magnet attached to the crank shaft. When the magnet passes in front of the sensor, the motor turns off. However, the motor will continue to spin even after the throttle is set to zero. To work around this, one can continue to spin the motor for a short time interval after the magnet passes the sensor. If this delay is tuned correctly, the crank will stop in more or less the desired position. 
 
 ## Schematics
 
-### Arduino nano:
-The code can accomodate either an analog or digital hall sensor. Whichever type of sensor is used, they both require the same circuit: 
+### Arduino nano: 
+The code can accommodate either an analog or digital hall sensor as both use the same circuit.
 
 <p align="center"> 
 <img src = "/diagrams/nano/schematic-nano.png" width = "80%"></img>
