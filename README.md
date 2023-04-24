@@ -13,7 +13,7 @@ The code can accommodate either an analog or digital hall sensor as both use the
 <img src = "/diagrams/nano/schematic-nano.png" width = "80%"></img>
 </p>
 
-### ATTiny85: 
+### DigiSpark ATTiny85: 
 Due to some odd behaviour, the input pin for the hall sensor has to change depending on whether it is analog or digital. Use __P0 for digital__  and __P4 for analog__. 
   
 <p align="center"> 
