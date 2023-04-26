@@ -20,5 +20,8 @@ Due to some odd behaviour, the input pin for the hall sensor has to change depen
 <img src = "/diagrams/attiny/schematic-attiny.png" width = "80%"></img>
 </p>
 
+## Dependencies
+The ATTiny code requires [ATTinyCore](https://github.com/SpenceKonde/ATTinyCore) to compile. 
+
 ## Example
 See: [Video explaining the Glide Lock and how it operates](https://youtu.be/v0z1ojpoehQ) 
